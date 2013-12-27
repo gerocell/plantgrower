@@ -36,6 +36,7 @@ public class ApplicationConfig extends Application {
         resources.add(plantgrower.service.ModuleFacadeREST.class);
         resources.add(plantgrower.service.NewMeasureREST.class);
         resources.add(plantgrower.service.PlantFacadeREST.class);
+        resources.add(plantgrower.service.RequestupdateREST.class);
         resources.add(plantgrower.service.SensorFacadeREST.class);
     }
     
