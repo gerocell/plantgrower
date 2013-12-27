@@ -40,7 +40,8 @@ public class RequestupdateREST {
     @Produces("application/json")
     public String getJson() {
         //TODO return proper representation object
-        throw new UnsupportedOperationException();
+        //throw new UnsupportedOperationException();
+        return "{{\"TEST1\", \"test1\"},{\"TEST2\",\"test2\"}}";
     }
 
     /**
